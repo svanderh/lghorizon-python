@@ -116,22 +116,22 @@ COUNTRY_SETTINGS = {
         },
         "language":"nl"
     },
-    # "be-nl-preprod": {
-    #     "api_url": "https://web-api-preprod-obo.horizon.tv/oesp/v4/BE/nld/web",
-    #     "personalization_url_format": "https://preprod.spark.telenettv.be/nld/web/personalization-service/v1/customer/{household_id}/devices",
-    #     "mqtt_url": "obomsg.preprod.be.horizon.tv",
-    #     "use_oauth": True,
-    #     "oauth_username_fieldname": "j_username",
-    #     "oauth_password_fieldname": "j_password",
-    #     "oauth_add_accept_header": False,
-    #     "oauth_url": "https://login.prd.telenet.be/openid/login.do",
-    #     "oauth_quote_login": False,
-    #     "oauth_redirect_header": "Location",
-    #     "channels": [
-    #         {"channelId": "netflix", "channelName": "Netflix", "channelNumber": "600"},
-    #         {"channelId": "youtube", "channelName": "Youtube", "channelNumber": "-1"},
-    #     ],
-    # },
+    "be-nl-preprod": {
+         "api_url": "https://web-api-preprod-obo.horizon.tv/oesp/v4/BE/nld/web",
+         "personalization_url_format": "https://preprod.spark.telenettv.be/nld/web/personalization-service/v1/customer/{household_id}/devices",
+         "mqtt_url": "obomsg.preprod.be.horizon.tv",
+         "use_oauth": True,
+         "oauth_username_fieldname": "j_username",
+         "oauth_password_fieldname": "j_password",
+         "oauth_add_accept_header": False,
+         "oauth_url": "https://login.prd.telenet.be/openid/login.do",
+         "oauth_quote_login": False,
+         "oauth_redirect_header": "Location",
+         "channels": [
+             {"channelId": "netflix", "channelName": "Netflix", "channelNumber": "600"},
+             {"channelId": "youtube", "channelName": "Youtube", "channelNumber": "-1"},
+         ],
+     },
     # "be-fr": {
     #     "api_url": "https://web-api-prod-obo.horizon.tv/oesp/v4/BE/fr/web",
     #     "personalization_url_format": "https://prod.spark.telenettv.be/fr/web/personalization-service/v1/customer/{household_id}/devices",
